@@ -3,5 +3,5 @@ str_array = string.split(/ /)
 str_array.each do |str_array|
   str_array.reverse 
 end 
- return str_array.join(" ") 
+ return str_array.reverse.join(" ") 
 end 
